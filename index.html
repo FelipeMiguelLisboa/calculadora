@@ -17,13 +17,13 @@
           <p>quanto ficou a conta?</p>
         </label>
         <p>
-            R$ <input type="number" placeholder="100" name="bill" id="bill" class="formInput">
+            R$ <input type="number" placeholder="100" name="bill" id="bill" class="formInput" required>
         </p>
         <label for="servicequal">
            <p>como foi seu Serviço?</p> 
         </label>
         <P>
-            <select name="servicequal" id="servicequal" class="formSelect">
+            <select name="servicequal" id="servicequal" class="formSelect" required>
                 <option disable selected value="0">--escolha uma opção</option>
                 <option value="0.3">30% - exelente</option>
                 <option value="0.2">20% - bom</option>
@@ -36,9 +36,9 @@
             <p>quantas pessoas vão dividir a conta?</p>
         </label>
         <p>
-            <input type="number" placeholder="1" name="people" id="people" class="formInput"> pessoa(s)
+            <input type="number" placeholder="1" name="people" id="people" class="formInput" required> pessoa(s)
         </p>
-        <button type="submit" class="formSubmit">calcular!</button>
+        <button type="submit" id="oiiii" class="formSubmit">calcular!</button>
     </form>
    </div>
    <div id="totalTip">
