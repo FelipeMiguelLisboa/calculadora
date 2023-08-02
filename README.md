@@ -1,2 +1,2 @@
 # calculadora
-calculadora com html css javascript
+calculadora com html css javascript meu primeiro projeto
